@@ -1,0 +1,17 @@
+version: 0.2
+
+env:
+  phases:
+    install:
+      commands:
+        - apt-get update -y
+        - apt-get install -y maven curl wget
+    pre_build:
+      commands:
+        - pip install -r requirements.txt
+    build:
+      commands:
+        - ls
+    post_build:
+      commands:
+        - echo Build completed on `date`
