@@ -1,5 +1,9 @@
 version: 0.2
 
+env:
+  variables:
+    TEST_RUNNER: "django.test.runner.DiscoverRunner"
+
 phases:
   pre_build:
     commands:
