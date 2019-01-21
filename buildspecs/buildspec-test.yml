@@ -1,9 +1,5 @@
 version: 0.2
 
-env:
-  variables:
-    TEST_RUNNER: "django.test.runner.DiscoverRunner"
-
 phases:
   pre_build:
     commands:
@@ -14,7 +10,7 @@ phases:
   build:
     commands:
       - echo Tests started on `date`
-      - django-admin test
+      - python manage.py test
   post_build:
     commands:
       - echo Tests completed on `date`
