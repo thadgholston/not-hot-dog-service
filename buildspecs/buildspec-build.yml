@@ -1,10 +1,5 @@
 version: 0.2
 
-env:
-  parameter-store:
-    DATABASE_URL: "psql://user:pass@127.0.0.1:8458/db"
-    SECRET: "fakesecretforrunningtests"
-
 phases:
   pre_build:
     commands:
