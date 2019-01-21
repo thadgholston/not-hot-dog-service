@@ -3,7 +3,6 @@ version: 0.2
 env:
   variables:
     DATABASE_URL: "sqlite:////nothotdog.sqlite"
-  parameter-store:
     SECRET: "fakesecretforrunningtests"
 
 phases:
