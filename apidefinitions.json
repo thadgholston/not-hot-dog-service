@@ -1,5 +1,6 @@
 [
   {
+    "family": "api",
     "name": "api",
     "image": "525409254738.dkr.ecr.us-east-1.amazonaws.com/api",
     "cpu": 100,
@@ -11,11 +12,9 @@
         "protocol": "tcp"
       }
     ],
-    "environment": [
+    "requiresCompatibilities": [
+      "FARGATE"
     ],
-    "volumesFrom": [],
-    "links": [],
-    "mountPoints": [],
     "essential": true
   }
 ]
