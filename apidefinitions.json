@@ -12,22 +12,6 @@
       }
     ],
     "environment": [
-      {
-        "name": "VARNISH_NAMED_BACKEND",
-        "value": "${backend_host}"
-      },
-      {
-        "name": "ALLOWED_HOSTS",
-        "value": "${allowed_hosts}"
-      },
-      {
-        "name": "HEALTH_CHECK_URL",
-        "value": "${health_check_url}"
-      },
-      {
-        "name": "ADMIN_URL",
-        "value": "${admin_url}"
-      }
     ],
     "volumesFrom": [],
     "links": [],
