@@ -1,7 +1,7 @@
 [
   {
     "name": "api",
-    "image": "python:3.7.2-stretch",
+    "image": "525409254738.dkr.ecr.us-east-1.amazonaws.com/api",
     "cpu": 100,
     "memory": 100,
     "portMappings": [
